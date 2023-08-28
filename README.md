@@ -1,32 +1,24 @@
-## Getting Started
+## YouTube Tutorial
+## How to build a blockchain app on Coinbase’s Base blockchain - blockchain developer
 
-Create a project using this example:
+Watch tutorial video here: https://youtu.be/JhPvmlcp4eE
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+In this video, you'll learn how to start building blockchain applications on Coinbase's Base blockchain. You'll create your own ERC20, ERC721, and ERC1155 smart contracts along with a frontend application to use them.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+## Contracts used in tutorial
+- [ERC20 - Token Drop](https://thirdweb.com/thirdweb.eth/DropERC20)
+- [ERC721 - Signature Drop](https://thirdweb.com/thirdweb.eth/SignatureDrop)
+- [ERC1155 - Edition Drop](https://thirdweb.com/thirdweb.eth/DropERC1155)
 
 ## Environment Variables
 
 To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
 
-## Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
-
-```bash
-yarn deploy
-```
-
 ## Learn More
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+Take a look at the following resources:
 
+- [Signature Based Minting](https://portal.thirdweb.com/glossary/signature-based-minting)
 - [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
 - [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
 - [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.

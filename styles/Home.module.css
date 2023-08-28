@@ -3,6 +3,11 @@
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .gradientText0 {
@@ -85,6 +90,14 @@
   max-width: 440px;
   overflow: none;
   border: none;
+  padding: 2rem;
+  min-width: 50%;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cardText {
